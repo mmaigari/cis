@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Ccategories</h1>
+
+<div id="ccategories">
+  <% @ccategories.each do |ccategory| %>
+    <%= render ccategory %>
+    <p>
+      <%= link_to "Show this ccategory", ccategory %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New ccategory", new_ccategory_path %>

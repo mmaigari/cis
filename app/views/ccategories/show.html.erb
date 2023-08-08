@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @ccategory %>
+
+<div>
+  <%= link_to "Edit this ccategory", edit_ccategory_path(@ccategory) %> |
+  <%= link_to "Back to ccategories", ccategories_path %>
+
+  <%= button_to "Destroy this ccategory", @ccategory, method: :delete %>
+</div>
