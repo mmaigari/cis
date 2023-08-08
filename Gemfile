@@ -66,7 +66,8 @@ end
 
 group :production do
   # Use console on exceptions pages [https://github.com/rails/web-console]
-gem 'pg', '~> 1.5', '>= 1.5.3'
+
+  
 end
 
 group :test do
@@ -79,4 +80,4 @@ end
 gem "tailwindcss-rails", "~> 2.0"
 
 gem "devise", "~> 4.9"
-
+gem "sqlite3", "~> 1.4"
